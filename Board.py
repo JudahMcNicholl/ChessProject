@@ -18,7 +18,7 @@ class Board:
         for x in range(8):
             grid[1][x] = Pieces.Pawn("White", 1, x, screen)
 
-        # Black
+        # Black changes in some comments
         grid[7][0] = Pieces.Rook("Black", 7, 0, screen)
         grid[7][7] = Pieces.Rook("Black", 7, 7, screen)
 
